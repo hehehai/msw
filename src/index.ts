@@ -1,6 +1,7 @@
 import * as context from './context'
 
 export { composeMocks } from './composeMocks/composeMocks'
+export { setupServer } from './setupServer/setupServer'
 export { MockedResponse, ResponseTransformer, response } from './response'
 export { context }
 
